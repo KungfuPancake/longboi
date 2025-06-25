@@ -1398,7 +1398,7 @@
 		(fields_autoplaced yes)
 		(uuid "0101c442-c2af-4880-981b-cc3ae3cd8cdc")
 		(property "Reference" "R61"
-			(at 82.55 76.2 0)
+			(at 82.55 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,8 +1406,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5k"
-			(at 82.55 78.74 0)
+		(property "Value" "3.3k"
+			(at 82.55 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)

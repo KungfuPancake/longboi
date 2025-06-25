@@ -1597,7 +1597,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e208f87-d1ee-4820-a035-aad77d23bf08")
 		(property "Reference" "R79"
-			(at 105.41 52.07 0)
+			(at 105.41 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,8 +1605,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5k"
-			(at 105.41 54.61 0)
+		(property "Value" "3.3k"
+			(at 105.41 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
