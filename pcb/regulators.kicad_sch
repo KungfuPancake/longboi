@@ -3025,7 +3025,7 @@
 		(fields_autoplaced yes)
 		(uuid "057ef06e-856f-44e9-9f63-b2884c710c34")
 		(property "Reference" "R14"
-			(at 50.8 85.09 0)
+			(at 50.8 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,8 +3033,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
-			(at 50.8 87.63 0)
+		(property "Value" "56k"
+			(at 50.8 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
