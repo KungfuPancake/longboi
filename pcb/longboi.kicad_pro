@@ -574,10 +574,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/rene/Desktop/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "longboi.step",
+      "step": "../../../../Desktop/longboi.step",
       "svg": "",
       "vrml": ""
     },
