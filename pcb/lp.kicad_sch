@@ -1433,7 +1433,7 @@
 		(fields_autoplaced yes)
 		(uuid "000a0689-47bc-43b8-a3bd-bb2420ce604d")
 		(property "Reference" "R66"
-			(at 50.8 46.99 0)
+			(at 50.8 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,8 +1441,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 50.8 49.53 0)
+		(property "Value" "10k"
+			(at 50.8 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
