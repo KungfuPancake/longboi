@@ -272,24 +272,25 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Switch:SW_MEC_5E"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 3.175 0)
+				(at 0.635 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SW_MEC_5E"
+				(at 0 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -297,6 +298,24 @@
 				)
 			)
 			(property "Footprint" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MEC 5E single pole normally-open tactile switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -305,7 +324,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(effects
 					(font
@@ -314,7 +333,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "ki_fp_filters" "SW*MEC*5G*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -323,18 +342,33 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "SW_MEC_5E_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
 					)
-					(hide yes)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
-			)
-			(symbol "SW_SPST_0_0"
+				(polyline
+					(pts
+						(xy -2.286 3.81) (xy 2.286 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
-					(center -2.032 0)
+					(center -1.778 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -346,7 +380,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy 0 3.81) (xy 0 5.588)
 					)
 					(stroke
 						(width 0)
@@ -357,7 +391,7 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 1.778 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -367,12 +401,22 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "SW_SPST_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -388,9 +432,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "B"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -398,6 +442,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -642,10 +722,32 @@
 		(uuid "0def311f-1434-489f-bf3b-d0e6e36011b6")
 	)
 	(junction
+		(at 48.26 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a628cf4a-3263-44b2-a8c7-135d4bae1c75")
+	)
+	(junction
 		(at 63.5 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af52becd-9fd0-45fb-a017-776f16a4faa6")
+	)
+	(junction
+		(at 48.26 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfae7f9d-c7c1-4fdd-b113-c24db0acc768")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17623ef2-e57a-47b9-9e75-1f763e6dd647")
 	)
 	(wire
 		(pts
@@ -656,6 +758,36 @@
 			(type default)
 		)
 		(uuid "20117e68-1459-49c7-abb2-dd35bb02fc6d")
+	)
+	(wire
+		(pts
+			(xy 60.96 59.69) (xy 63.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2748855b-af79-4803-b186-374e604557ca")
+	)
+	(wire
+		(pts
+			(xy 50.8 33.02) (xy 48.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311a4f18-0e14-4013-aa01-74ac52075b9f")
+	)
+	(wire
+		(pts
+			(xy 63.5 59.69) (xy 63.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3347b3b0-33d9-4aa1-871f-b1f0f727128e")
 	)
 	(wire
 		(pts
@@ -689,6 +821,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 33.02) (xy 63.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6c292f-f6ea-483f-b6b5-381ecba0ae46")
+	)
+	(wire
+		(pts
+			(xy 48.26 35.56) (xy 50.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdab46c-28bf-4873-ad4d-8e07ca84e1cb")
+	)
+	(wire
+		(pts
 			(xy 48.26 62.23) (xy 48.26 59.69)
 		)
 		(stroke
@@ -719,6 +871,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 33.02) (xy 48.26 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a92c9c-6c9d-4594-ba00-bb746bde82d6")
+	)
+	(wire
+		(pts
 			(xy 60.96 35.56) (xy 63.5 35.56)
 		)
 		(stroke
@@ -739,6 +901,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 33.02) (xy 63.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a99f8f-fa80-46e1-b5c6-44254ef9e5f2")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 50.8 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bf1655-f597-45c9-9ff4-25325d7a527d")
+	)
+	(wire
+		(pts
 			(xy 50.8 62.23) (xy 48.26 62.23)
 		)
 		(stroke
@@ -746,16 +928,6 @@
 			(type default)
 		)
 		(uuid "e60d95bd-7cc3-4f91-b47f-b1d8e0aecf35")
-	)
-	(wire
-		(pts
-			(xy 48.26 35.56) (xy 50.8 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec7364c6-8fc0-4dff-8d5d-8e4bebe44336")
 	)
 	(wire
 		(pts
@@ -857,7 +1029,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 48.26 59.69 0)
+		(at 48.26 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -866,7 +1038,7 @@
 		(fields_autoplaced yes)
 		(uuid "20cb7ff3-bb82-4c34-b598-9b5ed390e289")
 		(property "Reference" "#PWR0144"
-			(at 48.26 63.5 0)
+			(at 48.26 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,7 +1047,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 48.26 54.61 0)
+			(at 48.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,7 +1055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 59.69 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,7 +1064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 59.69 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +1073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 48.26 59.69 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1366,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
+		(lib_id "Switch:SW_MEC_5E")
 		(at 55.88 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1204,7 +1376,7 @@
 		(fields_autoplaced yes)
 		(uuid "c384d0f1-2df6-43e2-9201-082e38598e60")
 		(property "Reference" "SW1"
-			(at 55.88 29.21 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1384,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 55.88 31.75 0)
+			(at 55.88 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1392,7 @@
 			)
 		)
 		(property "Footprint" "LCSC:SW-SMD_4P-L3.4-W3.4-P2.00-LS4.0_TS3315A160GF"
-			(at 55.88 35.56 0)
+			(at 55.88 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,8 +1400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 55.88 35.56 0)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 55.88 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
 			(at 55.88 35.56 0)
 			(effects
 				(font
@@ -1252,6 +1424,12 @@
 		(pin "1"
 			(uuid "398a3ced-0a0c-4774-8a42-6bdeb69f6410")
 		)
+		(pin "4"
+			(uuid "cd43667f-68a1-4942-89d4-c3c8549088af")
+		)
+		(pin "3"
+			(uuid "96494cb1-9fbe-4d50-b231-19fa38a23cbc")
+		)
 		(instances
 			(project ""
 				(path "/0a1f9f3d-7c96-45bd-a844-76a0eed80de7/9cadfed1-b317-4f2a-ba8c-b94cddd5d1c0"
@@ -1262,7 +1440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
+		(lib_id "Switch:SW_MEC_5E")
 		(at 55.88 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1272,7 +1450,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8426234-a672-4271-918f-4b9ee277a126")
 		(property "Reference" "SW2"
-			(at 55.88 55.88 0)
+			(at 55.88 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1458,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 55.88 58.42 0)
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1466,7 @@
 			)
 		)
 		(property "Footprint" "LCSC:SW-SMD_4P-L3.4-W3.4-P2.00-LS4.0_TS3315A160GF"
-			(at 55.88 62.23 0)
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,8 +1474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 55.88 62.23 0)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,7 +1483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -1319,6 +1497,12 @@
 		)
 		(pin "1"
 			(uuid "0d06dd00-1763-4388-b4eb-7657fbe87e8b")
+		)
+		(pin "4"
+			(uuid "295db6fd-b655-406d-a96b-b48e0847a96d")
+		)
+		(pin "3"
+			(uuid "1193ab7e-7645-4903-a62b-035cfafdd343")
 		)
 		(instances
 			(project "turtleboard"
