@@ -3038,7 +3038,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1b03cbed-ea2b-4f04-8372-11ce7a6be248")
-		(property "Sheetname" "Switch 3"
+		(property "Sheetname" "Switch 4"
 			(at 158.75 123.7484 0)
 			(effects
 				(font
@@ -3142,7 +3142,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "25be3ea4-afad-472d-b831-a741fa301132")
-		(property "Sheetname" "Switch 4"
+		(property "Sheetname" "Switch 3"
 			(at 158.75 135.1784 0)
 			(effects
 				(font
