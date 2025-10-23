@@ -2321,6 +2321,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C90142"
+			(at 161.29 59.6836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c5f1d4e-69e4-45f3-bdc3-f0493070aa6b")
 		)
@@ -2395,6 +2404,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 149.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C90142"
+			(at 152.4 59.6836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,6 +2502,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23630"
+			(at 121.92 57.1436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "794aedd5-8084-4b26-b1c2-2fa7e1323c6c")
 		)
@@ -2559,6 +2586,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 139.7 59.6836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,6 +2762,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14675"
+			(at 59.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6ea1309-1559-461a-80b7-b5251258ea1c")
 		)
@@ -2878,6 +2923,15 @@
 		)
 		(property "Description" "Standalone driver for two-phase bipolar stepper motor, 2A, 4.75… 36V, UART, internal FETs, QFN28"
 			(at 102.616 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2150710"
+			(at 89.154 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,6 +3251,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C566013"
+			(at 130.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,6 +3589,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14675"
+			(at 46.99 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "950d88b4-bbd3-45f6-83e4-1137b866b297")
 		)
@@ -3686,6 +3758,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14675"
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cfa81096-262e-4940-af52-e6fe69c1f8ed")
 		)
@@ -3768,6 +3849,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 86.36 27.9336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13e15903-e33f-4860-a1aa-ed4315adf05c")
 		)
@@ -3843,6 +3933,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2934288"
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,6 +4265,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21122"
+			(at 67.31 52.0636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e9534d9-5cdc-451c-8c8f-f84345dec0d3")
 		)
@@ -4319,6 +4427,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2934288"
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

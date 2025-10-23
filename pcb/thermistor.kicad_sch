@@ -1096,6 +1096,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C378939"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a10ea4a-8362-4477-8725-29aaccb33518")
 		)
@@ -1232,6 +1241,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a0dd213-5204-4a3f-8244-c36f2274ca71")
 		)
@@ -1302,6 +1320,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 88.9 48.2536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7e77186-a496-410e-bbdb-6a151e053b3c")
 		)
@@ -1363,6 +1390,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 59.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C705759"
+			(at 59.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,6 +1540,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C705759"
+			(at 81.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80b472d7-7fca-44d3-8037-74ad0c591462")
 		)
@@ -1634,6 +1679,15 @@
 		)
 		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
 			(at 69.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 72.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)

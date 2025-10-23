@@ -2275,6 +2275,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5180312"
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6257d768-c366-434f-8352-5232402935eb")
 		)
@@ -2421,6 +2430,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C108518"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "783e3415-2a25-438d-83b5-4ccf33d2b597")
 		)
@@ -2484,6 +2502,15 @@
 		)
 		(property "Description" "CAN Bus Transceivers, 3.3V, 1Mbps,Ultra Low-Power capabilities, SOIC-8"
 			(at 77.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C129257"
+			(at 80.0118 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,6 +2672,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22787"
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3acc8deb-3e7d-4a75-b495-ee7f6a0ca06a")
 		)
@@ -2706,6 +2742,15 @@
 		)
 		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C277721"
+			(at 109.22 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,6 +2964,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C277721"
+			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d9fe4302-9071-4532-a5b0-2834ec478fc7")
 		)
@@ -2988,6 +3042,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C492401"
+			(at 110.49 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,6 +3253,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 140.97 77.4763 0)
 			(effects
 				(font
 					(size 1.27 1.27)

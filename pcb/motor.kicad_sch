@@ -1570,6 +1570,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 110.49 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89c655b4-8208-4878-b798-7788f4a024df")
 		)
@@ -1808,6 +1817,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C378939"
+			(at 156.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "741fb82f-be94-4190-be83-46653b9a2493")
 		)
@@ -1968,6 +1986,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 163.83 105.4036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1254d26-f0a0-480d-8c0e-11b8e03d3032")
 		)
@@ -2121,6 +2148,15 @@
 		)
 		(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
 			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C39159"
+			(at 137.1618 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,6 +2338,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 176.53 105.4036 0)
 			(effects
 				(font
 					(size 1.27 1.27)

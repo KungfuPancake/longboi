@@ -3233,6 +3233,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 102.87 127.0063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22202eea-941c-4449-abd4-59e01b66714e")
 		)
@@ -3362,6 +3371,15 @@
 		)
 		(property "Description" "4 resistor network, parallel topology"
 			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C29718"
+			(at 264.16 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,6 +3541,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C29718"
+			(at 243.84 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "b4ab10cf-53fa-4390-9548-fa3e7bc5b63c")
 		)
@@ -3604,6 +3631,15 @@
 		)
 		(property "Description" "8-Bit Single-Supply Bus Transceiver With 5V tolerant input voltage and 3-State Outputs 24mA, TSSOP-20"
 			(at 87.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7848"
+			(at 90.1718 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,6 +3830,15 @@
 		)
 		(property "Description" "8-Bit Single-Supply Bus Transceiver With 5V tolerant input voltage and 3-State Outputs 24mA, TSSOP-20"
 			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7848"
+			(at 213.3618 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,6 +4366,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 223.52 128.2763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee5c84ec-c5f5-4dfb-aba6-5f3162043b72")
 		)
@@ -4523,6 +4577,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C29718"
+			(at 140.97 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "79614cc7-2d01-43d2-afde-bca81c2fcaa2")
 		)
@@ -4604,6 +4667,15 @@
 		)
 		(property "Description" "4 resistor network, parallel topology"
 			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C29718"
+			(at 120.65 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)

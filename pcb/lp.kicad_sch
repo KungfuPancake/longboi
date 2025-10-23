@@ -1477,6 +1477,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 50.8 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a04b0de3-ea56-4136-bdc5-546879e305ec")
 		)
@@ -1544,6 +1553,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 34.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13167"
+			(at 36.83 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1669,7 @@
 		(fields_autoplaced yes)
 		(uuid "838bc439-6f64-4f3c-b4a4-600ec4dd74b9")
 		(property "Reference" "D6"
-			(at 38.1 49.8475 90)
+			(at 38.1 49.8474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,8 +1677,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 38.1 52.3875 90)
+		(property "Value" "Red"
+			(at 38.1 52.3874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,6 +1706,15 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965799"
+			(at 38.1 49.8474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,6 +1869,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C67272"
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f44cd160-4665-429d-8ad2-01be2e33d9b6")
 		)
@@ -1987,6 +2023,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C105588"
+			(at 41.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96257e0e-3a79-49e3-91ca-ee0420a51a33")
 		)
@@ -2079,6 +2124,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2902912"
+			(at 62.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "890ac82f-2fdf-4264-9b8e-ce4755286540")
 		)
@@ -2144,6 +2198,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 81.28 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C378939"
+			(at 80.645 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)

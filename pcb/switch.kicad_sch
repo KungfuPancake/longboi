@@ -1255,6 +1255,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C105588"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc33d133-3fe0-4e07-8c2d-2caa318f2a9e")
 		)
@@ -1467,7 +1476,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c998111-87e7-4e28-9547-146c8916eaf7")
 		(property "Reference" "D15"
-			(at 106.68 44.7675 90)
+			(at 106.68 44.7674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,8 +1484,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 106.68 47.3075 90)
+		(property "Value" "Yellow"
+			(at 106.68 47.3074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,6 +1513,15 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72038"
+			(at 106.68 44.7674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,6 +1659,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22978"
+			(at 105.41 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78f566f8-89ce-4a04-bae4-f64df40c73cc")
 		)
@@ -1762,6 +1789,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 69.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C565985"
+			(at 70.485 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,6 +1931,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 83.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 86.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,6 +2321,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 86.36 62.2363 0)
 			(effects
 				(font
 					(size 1.27 1.27)

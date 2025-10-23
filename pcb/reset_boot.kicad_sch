@@ -1148,6 +1148,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 66.04 39.3763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb995e1b-f693-42cf-ab02-695fb2413ef3")
 		)
@@ -1277,6 +1286,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 63.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 66.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,6 +1436,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C557593"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a90c5750-05ae-4cfd-965a-7954bd234c96")
 		)
@@ -1485,6 +1512,15 @@
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
 			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C557593"
+			(at 55.88 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
