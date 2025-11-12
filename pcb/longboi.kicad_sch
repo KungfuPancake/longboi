@@ -10956,7 +10956,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e1c2b17-5459-4661-8f02-d783138568fb")
 		(property "Reference" "C3"
-			(at 25.4 68.5862 0)
+			(at 25.4 68.5863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10964,8 +10964,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
-			(at 25.4 71.1262 0)
+		(property "Value" "12pF"
+			(at 25.4 71.1263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11749,7 +11749,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ba4a7db-dbf0-4558-ae9f-7e305f345d50")
 		(property "Reference" "C6"
-			(at 39.37 68.5862 0)
+			(at 39.37 68.5863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11757,8 +11757,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
-			(at 39.37 71.1262 0)
+		(property "Value" "12pF"
+			(at 39.37 71.1263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13294,7 +13294,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2925590"
+		(property "LCSC" "C9006"
 			(at 40.64 56.0069 0)
 			(effects
 				(font
