@@ -3,14 +3,14 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.0"
+      "Version": "9.0.6"
     },
-    "CreationDate": "2025-02-25T01:56:14+01:00"
+    "CreationDate": "2025-11-12T16:39:50+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "turtleboard",
-      "GUID": "74757274-6c65-4626-9f61-72642e6b6963",
+      "Name": "longboi",
+      "GUID": "6c6f6e67-626f-4692-9e6b-696361645f70",
       "Revision": "rev?"
     },
     "Size": {
@@ -43,57 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "turtleboard-F_Cu.gbr",
+      "Path": "longboi-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "turtleboard-Power.gbr",
-      "FileFunction": "Copper,L5,Inr",
+      "Path": "longboi-Power.gbr",
+      "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "turtleboard-GND.gbr",
-      "FileFunction": "Copper,L7,Inr",
+      "Path": "longboi-GND.gbr",
+      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "turtleboard-B_Cu.gbr",
+      "Path": "longboi-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "turtleboard-F_Paste.gbr",
+      "Path": "longboi-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "turtleboard-B_Paste.gbr",
+      "Path": "longboi-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "turtleboard-F_Silkscreen.gbr",
+      "Path": "longboi-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "turtleboard-B_Silkscreen.gbr",
+      "Path": "longboi-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "turtleboard-F_Mask.gbr",
+      "Path": "longboi-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "turtleboard-B_Mask.gbr",
+      "Path": "longboi-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "turtleboard-Edge_Cuts.gbr",
+      "Path": "longboi-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
