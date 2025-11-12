@@ -4,7 +4,7 @@ Tired of the mess of cables in your BoxTurtle? Want to add a heated filament dry
 
 The longboi sits behind the full width of the BoxTurtle front panel and allows very short cable runs of equal length from each respooler and extruder. It's equipped with a beefy STM32H723 MCU and can be controlled with CAN or USB. If using CAN it's also daisy chainable for 8, 12 or even more lanes!
 
-# How to get a longboi
+# How to get a Longboi
 ## Buying a complete board
 There is no way to buy a complete board right now. A limited production run might be possible in the future. Please check back later!
 
@@ -32,7 +32,7 @@ Start with only USB connected via the JST header. When plugging in the USB cable
 ![klipper reference config for usb](https://github.com/KungfuPancake/longboi/blob/main/images/klipper_usb.png)
 
 ## Initial flash via DFU
-To enable CAN or USB flashing via Katapult or Klipper you'll have to bootstrap the board via the MCUs built-in DFU bootloader, using dfu-util. To enter the DFU bootloader, hold down the "Boot"-button, then press the "Reset"-button shortly. You can now release both buttons and the longboi should be visible as a "STM Device in DFU Mode" USB device.
+To enable CAN or USB flashing via Katapult or Klipper you'll have to bootstrap the board via the MCUs built-in DFU bootloader, using dfu-util. To enter the DFU bootloader, hold down the "Boot"-button, then press the "Reset"-button shortly. You can now release both buttons and the Longboi should be visible as a "STM Device in DFU Mode" USB device.
 
 Use dfu-util to flash the desired firmware, e.g. Katapult: ```dfu-util -R -a 0 -s 0x08000000:leave -D ~/katapult/out/katapult.bin -d 0483:df11```
 
