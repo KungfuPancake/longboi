@@ -6,7 +6,7 @@ The longboi sits behind the full width of the BoxTurtle front panel and allows v
 
 # How to get a Longboi
 ## Buying a complete board
-There is no way to buy a complete board right now. A limited production run might be possible in the future. Please check back later!
+There is currently no stock of complete boards available. A limited production run might be possible in the future. Please check back later!
 
 ## Making your own
 Getting your own PCB made is pretty easy nowadays. It's a 4-layer board with moderate dimensions and spacings, so pretty much every manufacturer can handle this. You can use KiCad to create Gerber files or use the premade files in the repository. Always double check the output with the manufacturers visual tools!
