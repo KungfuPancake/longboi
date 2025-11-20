@@ -2,7 +2,7 @@
 ![assembled pcb render](https://github.com/KungfuPancake/longboi/blob/main/images/longboi_v1.0_render.jpg)
 Tired of the mess of cables in your BoxTurtle? Want to add a heated filament dryer chamber some time down the road? Want to control that cooling fan with PWM? This project is for you!
 
-The longboi sits behind the full width of the BoxTurtle front panel and allows very short cable runs of equal length from each respooler and extruder. It's equipped with a beefy STM32H723 MCU and can be controlled with CAN or USB. If using CAN it's also daisy chainable for 8, 12 or even more lanes!
+The Longboi sits behind the full width of the BoxTurtle front panel and allows very short cable runs of equal length from each respooler and extruder. It's equipped with a beefy STM32H723 MCU and can be controlled with CAN or USB. If using CAN it's also daisy chainable for 8, 12 or even more lanes!
 
 # How to get a Longboi
 ***V1.0 is currently being tested for hardware bugs*** - please hold off on ordering PCBs until this notice is removed, unless you know what you're doing.
@@ -14,7 +14,7 @@ There is currently no stock of complete boards available. A limited production r
 Getting your own PCB made is pretty easy nowadays. It's a 4-layer board with moderate dimensions and spacings, so pretty much every manufacturer can handle this. You can use KiCad to create Gerber files or use the premade files in the repository. Always double check the output with the manufacturers visual tools!
 Assembly of the board is an advanced task requiring lots of soldering, including hot air and/or using a reflow oven. If you don't feel comfortable with that, most of the popular PCB manufacturers will assemble the boards for you, for a fee. All the parts used on the board have a LCSC part ID assigned to them, for easy ordering and/or assembly at JLCPCB.
 
-# Getting started
+# Preparations
 This is a general guideline how to proceed with flashing the Katapult bootloader (optional) and Klipper. If you struggle with the process or encounter errors on the way, especially when using CAN bus, try the detailed instructions and troubleshooting tips and tricks from [Esoterical's CANBus guide][https://canbus.esoterical.online/].
 Start with only USB connected via the JST header. When plugging in the USB cable into your computer, the 3.3V and USB LEDs should light up. Now you're ready for flashing!
 
@@ -49,6 +49,33 @@ You can now flash Klipper: ```~/katapult/scripts/flashtool.py -f ~/klipper/out/k
 
 And you're done!
 
+## Print parts
+BOM:
+* ~95g of primary color filament
+* 7x M3x4x5 heat set insert (Voron style)
+* 7x M3x10 SHCS
+* (Optional) 7x M3x5 brass standoffs
+* (Optional) 7x M3x4 SHCS
+
+Print the following parts in your primary color:
+
+* 1x skirt_front_hex_single.stl (no split parts available yet)
+
+If you're not using brass standoffs, also print:
+
+* 7x pcb_spacer_x7.stl
+
+Print all parts using the BoxTurtle settings.
+
+# Assembly
+## Mounting PCB + front skirt
+Add the heat set inserts into the front skirt, then mount the PCB. If you're using brass standoffs, screw those in first, then mount the board using the M3x4 fasteners. If using printed spacers, for easier assembly you can pre-insert two M3x10s into the PCB, add spacers and then mount it on the front skirt. Then use tweezers to add spacers between the PCB and the skirt on the remaining holes and add the rest of the M3x10s.
+Insert the front skirt according to the manual and double check that the cutouts on the PCB correspond to the respooler switch tabs.
+
 ## Connections
+Every respooler + extruder has its own set of connectors on the PCB, e.g. M4, RGB4, S8, S7, STP4.
 ![pcb render with pinout](https://github.com/KungfuPancake/longboi/blob/main/images/longboi_v1.0_pinout.png)
+
+If you're making your own cables, to make your life easier, assemble one respooler and one extruder first with generous cable length. Mount everything, measure everything, cut and crimp all connections. Afterwards, remove the respooler and extruder and finish the other three sets outside of the BoxTurtle with your measurements.
+Tidy up with cable ties/velcro straps as needed and plug in everything.
 ![mounted pcb](https://github.com/KungfuPancake/longboi/blob/main/images/longboi_v0.1_mounted.jpg)
