@@ -5,10 +5,9 @@ Tired of the mess of cables in your BoxTurtle? Want to add a heated filament dry
 The Longboi sits behind the full width of the BoxTurtle front panel and allows very short cable runs of equal length from each respooler and extruder. It's equipped with a beefy STM32H723 MCU and can be controlled with CAN or USB. If using CAN it's also daisy chainable for 8, 12 or even more lanes!
 
 # How to get a Longboi
-***V1.0 is currently being tested for hardware bugs*** - please hold off on ordering PCBs until this notice is removed, unless you know what you're doing.
 
 ## Buying a complete board
-There is currently no stock of complete boards available. A limited production run might be possible in the future. Please check back later!
+Manufacturing and sales of complete boards is currently being worked on. Please check later for details.
 
 ## Making your own
 Getting your own PCB made is pretty easy nowadays. It's a 4-layer board with moderate dimensions and spacings, so pretty much every manufacturer can handle this. You can use KiCad to create Gerber files or use the premade files in the repository. Always double check the output with the manufacturers visual tools!
