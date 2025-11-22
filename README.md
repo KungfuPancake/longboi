@@ -78,3 +78,9 @@ Every respooler + extruder has its own set of connectors on the PCB, e.g. M4, RG
 If you're making your own cables, to make your life easier, assemble one respooler and one extruder first with generous cable length. Mount everything, measure everything, cut and crimp all connections. Afterwards, remove the respooler and extruder and finish the other three sets outside of the BoxTurtle with your measurements.
 Tidy up with cable ties/velcro straps as needed and plug in everything.
 ![mounted pcb](https://github.com/KungfuPancake/longboi/blob/main/images/longboi_v0.1_mounted.jpg)
+
+# Configuration
+## Pin aliases / longboi.cfg
+coming soon
+## AFC configuration
+coming soon
