@@ -12,6 +12,7 @@ Manufacturing and sales of complete boards is currently being worked on. Please 
 ## Making your own
 Getting your own PCB made is pretty easy nowadays. It's a 4-layer board with moderate dimensions and spacings, so pretty much every manufacturer can handle this. You can use KiCad to create Gerber files or use the premade files in the repository. Always double check the output with the manufacturers visual tools!
 Assembly of the board is an advanced task requiring lots of soldering, including hot air and/or using a reflow oven. If you don't feel comfortable with that, most of the popular PCB manufacturers will assemble the boards for you, for a fee. All the parts used on the board have a LCSC part ID assigned to them, for easy ordering and/or assembly at JLCPCB.
+Please be aware that the BOM only contains a fuse holder, the fuses (2410/1808) have to be sourced separately. 4A is a good value to start, depending on the heater you may or may not use the value can be scaled up or down accordingly.
 
 # Preparations
 This is a general guideline how to proceed with flashing the Katapult bootloader (optional) and Klipper. If you struggle with the process or encounter errors on the way, especially when using CAN bus, try the detailed instructions and troubleshooting tips and tricks from [Esoterical's CANBus guide][https://canbus.esoterical.online/].
