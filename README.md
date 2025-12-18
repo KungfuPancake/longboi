@@ -50,6 +50,7 @@ You can now flash Klipper: ```~/katapult/scripts/flashtool.py -f ~/klipper/out/k
 And you're done!
 
 ## Print parts
+### Base BoxTurtle
 BOM:
 * ~95g of primary color filament
 * 7x M3x4x5 heat set insert (Voron style)
@@ -67,10 +68,17 @@ If you're not using brass standoffs, also print:
 
 Print all parts using the BoxTurtle settings.
 
+### BoxTurtle Enclosure
+Please use the CAD files for reference until a detailed manual is available.
+
 # Assembly
 ## Mounting PCB + front skirt
+### Base BoxTurtle
 Add the heat set inserts into the front skirt, then mount the PCB. If you're using brass standoffs, screw those in first, then mount the board using the M3x4 fasteners. If using printed spacers, for easier assembly you can pre-insert two M3x10s into the PCB, add spacers and then mount it on the front skirt. Then use tweezers to add spacers between the PCB and the skirt on the remaining holes and add the rest of the M3x10s.
 Insert the front skirt according to the manual and double check that the cutouts on the PCB correspond to the respooler switch tabs.
+
+### BoxTurtle Enclosure
+Please use the CAD files for reference until a detailed manual is available.
 
 ## Connections
 Every respooler + extruder has its own set of connectors on the PCB, e.g. M4, RGB4, S8, S7, STP4.
