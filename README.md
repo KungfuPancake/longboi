@@ -10,8 +10,10 @@ The Longboi sits behind the full width of the BoxTurtle front panel and allows v
 Manufacturing and sales of complete boards is currently being worked on. Please check later for details.
 
 ## Making your own
-Getting your own PCB made is pretty easy nowadays. It's a 4-layer board with moderate dimensions and spacings, so pretty much every manufacturer can handle this. You can use KiCad to create Gerber files or use the premade files in the repository. Always double check the output with the manufacturers visual tools!
-Assembly of the board is an advanced task requiring lots of soldering, including hot air and/or using a reflow oven. If you don't feel comfortable with that, most of the popular PCB manufacturers will assemble the boards for you, for a fee. All the parts used on the board have a LCSC part ID assigned to them, for easy ordering and/or assembly at JLCPCB.
+There is an open issue [#22](https://github.com/KungfuPancake/longboi/issues/22) to create a complete set of gerber files, BOM and position files to make it as easy as possible to order fully assembled boards via JLCPCB. If you don't regularly create and/or assemble PCBs you're currently advised to wait until these files are available.
+
+Assembly of the board is an advanced task requiring lots of soldering, including hot air and/or using a reflow oven. If you don't feel comfortable with that, you should let the fab handle the assembly.
+
 Please be aware that the BOM only contains a fuse holder, the fuses (2410/1808) have to be sourced separately. 4A is a good value to start, depending on the heater you may or may not use the value can be scaled up or down accordingly.
 
 # Preparations
