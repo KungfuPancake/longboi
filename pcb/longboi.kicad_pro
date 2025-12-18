@@ -597,7 +597,7 @@
       "idf": "",
       "netlist": "",
       "plot": "/home/rene/Desktop/",
-      "pos_files": "",
+      "pos_files": "gerber/",
       "specctra_dsn": "",
       "step": "../../../../Desktop/longboi.step",
       "svg": "",
@@ -607,7 +607,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "gerber\\longboi.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -687,6 +687,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
