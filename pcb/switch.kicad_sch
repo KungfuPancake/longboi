@@ -1761,7 +1761,7 @@
 				)
 			)
 		)
-		(property "Value" "JST-XH"
+		(property "Value" "Conn_01x03_Pin"
 			(at 70.485 60.96 0)
 			(effects
 				(font
