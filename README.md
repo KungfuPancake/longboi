@@ -9,10 +9,21 @@ The Longboi sits behind the full width of the BoxTurtle front panel and allows v
 ## Buying a complete board
 Manufacturing and sales of complete boards is currently being worked on. Please check later for details.
 
-## Making your own
-There is an open issue [#22](https://github.com/KungfuPancake/longboi/issues/22) to create a complete set of gerber files, BOM and position files to make it as easy as possible to order fully assembled boards via JLCPCB. If you don't regularly create and/or assemble PCBs you're currently advised to wait until these files are available.
+## PCB + Assembly by JLCPCB
+You can order assembled PCBs from pretty much any fab, although currently only production files tested with JLCPCB are available in [jlcpcb/](https://github.com/KungfuPancake/longboi/tree/main/jlcpcb).
+To order PCBs with assembly you'll have to go through their manufacturing wizard, using mostly standard settings. Although the JLC engineers will try and correct any mistakes, please do sanity checks on every page.
+1. Upload `longboi.zip`into the PCB quote form and select a quantity. Five PCBs is the minimum quantity, cost per board will be lower the more boards you order since most of the cost is setup fees. Select a solder mask color you like - green is usually cheapest. I highly recommend choosing ENIG as a surface finish, HASL is usually not worth the saved money on production boards. Leave all other settings on their default values. Check PCBA (assembly) on the bottom of the form. Click "Next".
+2. Check if the PCB looks like it should, then click "Next".
+3. Upload `bom.csv` for BOM, `positions.csv`for CPL. Click "Next".
+4. Check if all components look right, if there are stock shortages you will have to select replacement. Be very careful to select components that are equal or better in specs. If everything looks good, click "Next".
+5. Check the placement of all components, especially if the first pin corresponds with the PCB markings. Slight inaccuracies on the big through hole connectors are okay, as they are hand soldered anyway. Click "Next".
+6. You'll see a breakdown of all individual fees and prices. If you're flexible on the amount of PCBs you order you can try and see which amount has the best value to you.
+7. Done!
 
-Assembly of the board is an advanced task requiring lots of soldering, including hot air and/or using a reflow oven. If you don't feel comfortable with that, you should let the fab handle the assembly.
+Please be aware that the BOM only contains a fuse holder, the fuses (2410/1808) have to be sourced separately. 4A is a good value to start, depending on the heater you may or may not use the value can be scaled up or down accordingly.
+
+## PCB + assembling it yourself
+Order the PCBs anywere you want as the specs are very modest. Assembly of the board is an advanced task requiring lots of soldering, including hot air and/or using a reflow oven. If you don't feel comfortable with that, you should let the fab handle the assembly.
 
 Please be aware that the BOM only contains a fuse holder, the fuses (2410/1808) have to be sourced separately. 4A is a good value to start, depending on the heater you may or may not use the value can be scaled up or down accordingly.
 
