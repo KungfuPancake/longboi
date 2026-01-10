@@ -79,7 +79,7 @@ If you're not using brass standoffs, also print:
 
 * 7x pcb_spacer_x7.stl
 
-Print all parts using the BoxTurtle settings.
+Print all parts using the BoxTurtle settings, make sure that you tuned your filament for shrinkage as the mounting holes won't line up otherwise.
 
 ### BoxTurtle Enclosure
 Please use the CAD files for reference until a detailed manual is available.
