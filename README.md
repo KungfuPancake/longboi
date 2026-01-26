@@ -7,7 +7,7 @@ The Longboi sits behind the full width of the BoxTurtle front panel and allows v
 # How to get a Longboi
 
 ## Buying a complete board
-Manufacturing and sales of complete boards is currently being worked on. Please check later for details.
+LDO will sell complete boards via various resellers. Production is targeted around April - check back later for updates!
 
 ## PCB + Assembly by JLCPCB
 You can order assembled PCBs from pretty much any fab, although currently only production files tested with JLCPCB are available in [jlcpcb/](https://github.com/KungfuPancake/longboi/tree/main/jlcpcb).
