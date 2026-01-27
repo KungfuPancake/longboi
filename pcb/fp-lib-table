@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Longboi_Custom")(type "KiCad")(uri "${KIPRJMOD}/Longboi_Custom.pretty")(options "")(descr ""))
+)
