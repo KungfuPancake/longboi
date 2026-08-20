@@ -7,7 +7,7 @@ The Longboi sits behind the full width of the BoxTurtle front panel and allows v
 # How to get a Longboi
 
 ## Buying a complete board
-LDO will sell complete boards via various resellers. Production is targeted around April - check back later for updates!
+LDO will sell complete boards via various resellers. Production is currently unknown - check back later for updates!
 
 ## PCB + Assembly by JLCPCB
 You can order assembled PCBs from pretty much any fab, although currently only production files tested with JLCPCB are available in [jlcpcb/](https://github.com/KungfuPancake/longboi/tree/main/jlcpcb).
@@ -28,7 +28,7 @@ Order the PCBs anywere you want as the specs are very modest. Assembly of the bo
 Please be aware that the BOM only contains a fuse holder, the fuses (2410/1808) have to be sourced separately. 4A is a good value to start, depending on the heater you may or may not use the value can be scaled up or down accordingly.
 
 # Preparations
-This is a general guideline how to proceed with flashing the Katapult bootloader (optional) and Klipper. If you struggle with the process or encounter errors on the way, especially when using CAN bus, try the detailed instructions and troubleshooting tips and tricks from [Esoterical's CANBus guide][https://canbus.esoterical.online/].
+This is a general guideline how to proceed with flashing the Katapult bootloader (optional) and Klipper. If you struggle with the process or encounter errors on the way, especially when using CAN bus, try the detailed instructions and troubleshooting tips and tricks from [Esoterical's CANBus guide](https://canbus.esoterical.online/).
 Start with only USB connected via the JST header. When plugging in the USB cable into your computer, the 3.3V and USB LEDs should light up. Now you're ready for flashing!
 
 
@@ -95,7 +95,8 @@ Please use the CAD files for reference until a detailed manual is available.
 
 ## Connections
 Every respooler + extruder has its own set of connectors on the PCB, e.g. M4, RGB4, S8, S7, STP4.
-![pcb render with pinout](https://github.com/KungfuPancake/longboi/blob/main/images/longboi_v1.0_pinout.png)
+![pcb 1.0 render with pinout](https://github.com/KungfuPancake/longboi/blob/main/images/longboi_v1.0_pinout.png)
+![pcb 1.1 render with pinout](https://github.com/KungfuPancake/longboi/blob/main/images/longboi_v1.1_pinout.png)
 
 If you're making your own cables, to make your life easier, assemble one respooler and one extruder first with generous cable length. Mount everything, measure everything, cut and crimp all connections. Afterwards, remove the respooler and extruder and finish the other three sets outside of the BoxTurtle with your measurements.
 Tidy up with cable ties/velcro straps as needed and plug in everything.
